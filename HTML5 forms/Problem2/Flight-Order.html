@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="#" method="GET">
+		<h1>FLIGHT ORDER</h1>
+		<fieldset id="right">
+			<label for="to">To</label>
+			<select id="to" name="to">
+				<option value="city" selected="true" disabled="disabled">enter a city</option>
+				<option value="london">London</option>
+				<option value="paris">Paris</option>
+				<option value="madrid">Madrid</option>
+			</select>
+			<input id="direct" type="checkbox" name="direct" />
+			<label id="for-direct" for="direct">Prefer directs</label><br />
+			<label for="dep-time-from">Time Interval</label>
+			<input class="times" id="dep-time-from" type="text" name="dep-time-from" placeholder="00:20" />
+			<input class="times" type="text" name="dep-time-to" placeholder="05:00" />
+			<label for="rtrn-time-from">Time Interval</label>
+			<input class="times" id="rtrn-time-from" type="text" name="rtrn-time-from" placeholder="16:00" />
+			<input class="times" type="text" name="rtrn-time-to" placeholder="22:00" />
+			<label for="class">Choose class</label>
+			<select id="class" name="class">
+				<option value="e" selected="true">Economy</option>
+				<option value="b">Business</option>
+				<option value="f">First</option>
+			</select>
+			<input type="submit" name="submit" value="Search" />
+		</fieldset>
+		<fieldset>
+			<label for="from">From</label>
+			<select id="from" name="from">
+				<option value="city" selected="true" disabled="disabled">enter a city</option>
+				<option value="sofia">Sofia</option>
+				<option value="varna">Varna</option>
+				<option value="bourgas">Bourgas</option>
+			</select>
+			<label for="dep-date">Departure Date</label>
+			<input id="dep-date" type="text" name="dep-date" placeholder="09.06.2014">
+			<label for="rtrn-date">Return Date</label>
+			<input id="rtrn-date" type="text" name="rtrn-date" placeholder="13.06.2014">
+			<label class="age" for="adult">12+</label>
+			<label class="age" for="child">2-12</label>
+			<label class="age" for="infant">0-2</label>
+			<input id="adult" type="number" name="adult" value="0">
+			<input id="child" type="number" name="child" value="0">
+			<input id="infant" type="number" name="infant" value="0">
+		</fieldset>
+	</form>
+</body>
+</html>

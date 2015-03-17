@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+}
+#wrapper>header {
+	font-size: 30px;
+	padding: 20px 0px 100px 60px;
+	letter-spacing: 1px;
+}
+nav a {
+	display: block;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: darkgrey;
+	float: left;
+}
+nav a:first-child {
+	padding-left: 40px;
+}
+nav img {
+	width: 12px;
+}
+nav form {
+	float: right;
+	margin-right: 40px;
+}
+aside#left {
+	float: left;
+	width: 180px;
+	clear: left;
+	padding-top: 100px;
+}
+aside#left ul {
+	list-style-type: none;
+}
+aside#left ul li {
+	margin-bottom: 10px;
+	line-height: 15px;
+}
+aside#left a, main a {
+	text-decoration: none;
+	color: #336699;
+	letter-spacing: 1px;
+}
+aside#right {
+	float: right;
+	width: 220px;
+	padding-top: 60px;
+}
+aside#right select {
+	margin-bottom: 10px;
+	background-color: white;
+}
+aside#right p {
+	color: grey;
+}
+aside#right span {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+main {
+	margin: 80px 50px 50px 250px;
+	width: 490px;
+}
+article h1 {
+	font-size: 30px;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 10px;
+}
+article h2 {
+	font-size: 11px;
+	font-weight: normal;
+	color: grey;
+	text-align: left;
+	letter-spacing: 2px;
+}
+article h2 span {
+	color: lightgrey;
+}
+article p {
+	margin: 20px 0px;
+	line-height: 17px;
+	letter-spacing: 1px;
+}
+section {
+	padding-bottom: 70px;
+}
+#tweet {
+	color: grey;
+	font-style: italic;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+#tweet img {
+	float: left;
+	width: 15px;
+	padding-right: 10px;
+	vertical-align: text-top;
+}
+footer {
+	width: 100%;
+	background-color: black;
+	height: 180px;
+}
+footer p {
+	color: grey;
+	line-height: 20px;
+}
+#title {
+	float: left;
+	font-size: 22px;
+	color: white;
+	width: 160px;
+	padding: 20px;
+}
+.footer {
+	float: left;
+	width: 160px;
+	padding: 20px;
+}
+.footer ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+.footer ul li {
+	line-height: 20px;
+}
+.footer a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	line-height: 15px;
+}
+.footer span {
+	letter-spacing: 2px;
+	color: white;
+	display: block;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}

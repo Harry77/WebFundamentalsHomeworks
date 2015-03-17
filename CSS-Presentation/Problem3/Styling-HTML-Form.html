@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling a HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="#" method="POST">
+		<fieldset class="steps">
+			<legend>Step 1: Your details</legend>
+			<div class="input-wrap">
+				<label for="name">Name</label>
+				<input id="name" type="text" name="name" placeholder="First and last name" />
+			</div>
+			<div class="input-wrap">
+				<label for="mail">Email</label>
+				<input id="mail" type="email" name="mail" placeholder="example@domain.com" />
+				</div>
+			<div class="input-wrap">
+				<label for="phone">Phone</label>
+				<input id="phone" type="tel" name="phone" placeholder="eg. +447500000000" />
+			</div>
+		</fieldset>
+		<fieldset class="steps">
+			<legend>Step 1: Delivery address</legend>
+			<div class="input-wrap">
+				<label for="address">Address</label>
+				<textarea id="address" name="address" autofocus></textarea>
+			</div>
+			<div class="input-wrap">
+				<label for="postcode">Post code</label>
+				<input id="postcode" type="text" name="post" />
+			</div>
+			<div class="input-wrap">
+				<label for="country">Country</label>
+				<input id="country" type="text" name="country" />
+			</div>
+		</fieldset>
+		<fieldset class="steps">
+			<legend>Step 1: Card details</legend>
+			<div class="input-wrap">
+				<fieldset id="cards">
+					<legend id="card-types">Card type</legend>
+					<input id="visa" type="radio" name="card" value="visa" />
+					<label for="visa"><img src="resources/visa.jpg" />VISA</label>
+					<input id="amex" type="radio" name="card" value="amex" />
+					<label for="amex"><img src="resources/amex.png" />AmEx</label>
+					<input id="mc" type="radio" name="card" value="mc" />
+					<label for="mc"><img src="resources/mastercard.jpg" />Mastercard</label>
+				</fieldset>
+			</div>
+			<div class="input-wrap">
+				<label for="card-num">Card number</label>
+				<input id="card-num" type="text" name="card-num" />
+			</div>
+			<div class="input-wrap">
+				<label for="security">Security code</label>
+				<input id="security" type="text" name="security" />
+			</div>
+			<div class="input-wrap">
+				<label for="owner">Name on card</label>
+				<input id="owner" type="text" name="owner" placeholder="exact name as on the card" />
+			</div>
+		</fieldset>
+		<button>BUY IT!</button>
+	</form>
+</body>
+</html>

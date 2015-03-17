@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+    font-family: HawaiiFont;
+    src: url(resources/Animated.ttf);
+}
+div {
+	width: 900px;
+	height: 600px;
+	background: url('resources/HawaiiBackground.png'), radial-gradient(at 150px 150px, white, #005FDB);
+
+}
+span {
+	font-family: HawaiiFont, Arial;
+	color: #FDBC21;
+	float: right;
+	margin: 20px;
+	font-size: 50px;
+}
+img {
+	position: absolute;	
+}
+#vladog {
+	top: 200px;
+	left: 50px;
+}
+#petia {
+	top: 190px;
+	left: 230px;
+}
+#tedi {
+	top: 350px;
+	left: 310px;
+}
+#nakov {
+	top: 170px;
+	left: 460px;
+}
+#alex {
+	top: 210px;
+	left: 540px;
+}
+#vladok {
+	top: 230px;
+	left: 680px;
+}

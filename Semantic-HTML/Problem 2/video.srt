@@ -1,0 +1,37 @@
+1
+00:00:00,084 --> 00:00:02,177
+while Google supports a number of market
+formats for rich snippets
+
+2
+00:00:03,077 --> 00:00:07,096
+including microdata an RDF a we strongly
+encourage you to use our preferred
+
+3
+00:00:07,096 --> 00:00:07,101
+format
+
+4
+00:00:08,046 --> 00:00:11,475
+microdata microdata is a modern html5
+
+5
+00:00:11,889 --> 00:00:15,980
+format used on schema not or and
+understood by all major search engines
+
+6
+00:00:15,098 --> 00:00:19,122
+while we still recognize older formats
+new rich the features me
+
+7
+00:00:20,022 --> 00:00:23,921
+only work with schema .org microdata
+Mark A for more information
+
+8
+00:00:24,119 --> 00:00:26,080
+visit webmaster tools for schema .org
+

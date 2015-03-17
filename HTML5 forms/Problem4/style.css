@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-weight: bold;
+}
+#wrapper {
+	background-color: #336699;
+	width: 600px;
+	height: 530px;
+	margin: 10px auto;
+	padding: 5px 10px;
+}
+h1, h2, h3, legend {
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 100px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+sub {
+	font-size: 12px;
+	position: relative;
+	bottom: 20px;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+fieldset, input, select {
+	float: left;
+}
+fieldset {
+	border-color: white;
+	border-radius: 10px;
+}
+fieldset#left {
+	width: 200px;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+fieldset#right {
+	width: 300px;
+}
+legend {
+	font-size: 12px;
+}
+label {
+	display: block;
+	color: white;
+	font-size: 10px;
+	width: 60px;
+	margin-bottom: 5px;
+}
+fieldset#left input {
+	width: 91px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+fieldset#left input[type="phone"] {
+	width: 89px;
+}
+fieldset#left input#birth {
+	width: 150px;
+	float: none;
+	font-family: "Times New Roman", Times, Serif;
+}
+fieldset#left input[type="radio"] {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+}
+.for-gender {
+	float: left;
+	width: 40px;
+	margin-bottom: 30px;
+}
+fieldset#right input {
+	width: 91px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+fieldset#right select {
+	width: 95px;
+	height: 26px;
+	border-radius: 5px;
+	font-size: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+fieldset#right input.short {
+	width: 57px;
+}
+fieldset#right input[type="color"] {
+	border: 1px;
+}
+fieldset#right label {
+	width: 200px;
+}
+textarea {
+	width: 287px;
+	height: 43px;
+	border-radius: 5px;
+}
+input[type="reset"], input[type="submit"] {
+	background-color: #eeeeee;
+	color: #336699;
+	border: none;;
+	border-radius: 10px;
+	height: 50px;
+}
+input[type="reset"] {
+	font-size: 16px;
+	font-weight: bold;
+	width: 225px;
+	margin: 20px 35px 0px 5px;
+}
+input[type="submit"] {
+	font-size: 28px;
+	width: 325px;
+	font-weight: bold;
+	margin-top: 20px;
+}

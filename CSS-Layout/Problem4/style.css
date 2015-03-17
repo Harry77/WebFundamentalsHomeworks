@@ -1,0 +1,95 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	background: #101415;
+}
+#wrapper {
+	width: 900px;
+	margin: 10px auto;
+	background: white;
+}
+#wrapper>header {
+	background: url("resources/headerBackground.jpg");
+	height: 270px;
+}
+h1 {
+	color: white;
+	line-height: 450px;
+	margin-left: 500px;
+	font-weight: bold;
+	font-size: 30px;
+}
+nav {
+	background: #e8e8e8;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid white;
+}
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 20px 40px;
+	display: inline-block;
+}
+nav a:hover {
+	color: white;
+	background: grey;
+}
+aside {
+	float: right;
+	width: 200px;
+	margin: 0px 30px 0px 0px;
+}
+aside a {
+	color: #84be19;
+	font-weight: bold;
+}
+section {
+	box-shadow: 0px 0px 3px #e8e8e8;
+	padding: 10px 20px 20px;
+	margin-top: 20px;
+}
+aside h3, aside p {
+	margin: 0px;
+}
+aside div {
+	margin-bottom: 10px;
+}
+main {
+	margin: 20px 300px 20px 30px;
+}
+article {
+	margin-top: 20px;
+}
+a#testimonials {
+	line-height: 30px;
+}
+h2 {
+	color: #84be19;
+	font-size: 26px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 10px;
+	font-weight: bold;
+}
+span {
+	font-weight: bold;
+}
+img {
+	float: left;
+	margin-right: 20px;
+}
+footer {
+	background: linear-gradient(#a4d941, #84bf19);
+	height: 100px;
+}
+footer p {
+	margin-left: 150px;
+	line-height: 100px;
+}
+footer a {
+	color: black;
+}

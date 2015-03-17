@@ -1,0 +1,152 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END RESET*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background: #284a6b;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	width: 1000px;
+	height: 100px;
+	padding: 10px 20px;
+	font-size: 12px;
+	margin: 10px auto;
+}
+img#logo {
+	height: 100px;
+	float: left;
+}
+div#right {
+	float: right;
+	position: relative;
+	left: 25px;
+}
+img#bell {
+	width: 15px;
+	margin-right: 20px;
+	position: relative;
+	top: 3px;
+}
+ul.invisible {
+	position: absolute;
+	display: none;
+}
+ul#menu {
+	display: block;
+	float: right;
+	margin-top: 30px;
+}
+ul#menu>li {
+	display: inline-block;
+	margin-left: 26px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+input {
+	height: 20px;
+	border-radius: 5px;
+	border: none;
+	background: white;
+}
+input[type="image"] {
+	height: 22px;
+	position: relative;
+	top: 6px;
+	right: 25px;
+}
+span {
+	display: inline-block;
+}
+span>ul>li>a {
+	text-transform: uppercase;
+}
+span:hover ul {
+	display: block;
+}
+span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+span>ul>li:hover a {
+	color: orange;
+	cursor: pointer;
+}
+form {
+	display: inline-block;
+}
+ul.invisible {
+	display: none;
+	position: absolute;
+	padding-left: 20px;
+	margin: 0px;
+}
+ul#menu>li:hover ul {
+	display: block;
+	cursor: pointer;
+}
+ul#menu>li:hover, 
+ul#menu>li:hover>a,
+ul.invisible>li:hover a {
+	color: orange;
+	cursor: pointer;
+}
+ul.invisible>li {
+	text-decoration: none;
+	background: #284a6b;
+	border-bottom: 1px solid white;
+	padding: 5px;
+	display: block;
+	width: 150px;
+}
+ul.invisible>li:last-child {
+	border-bottom: none;
+}

@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+#outer {
+	padding: 30px;
+	margin: 50px auto;
+	border-left: 5px dashed red;
+	border-top: 5px dotted yellow;
+	border-right: 10px solid green;
+	border-bottom: 10px double blue;
+	width: 640px;
+	height: 240px;
+	box-shadow: 15px 15px 5px #4c4c4c;
+	font-size: 44px;
+	text-shadow: 15px 15px 10px  lightgrey;
+	text-align: center;
+}
+#inner {
+	height: 80px;
+	width: 600px;
+	text-align: center;
+	border-radius: 55px;
+	box-shadow: 0 0 0 3px red, 0 0 0 6px yellow, 0 0 0 9px green, 0 0 0 12px blue;
+	margin: 50px auto 0px auto;
+	padding: 15px;
+	font-size: 24px;
+}
+.buttons {
+	float: left;
+	background-color: #D8921A;
+	border: 4px outset #FFA400;
+	font-size: 18px;
+	margin: 15px 3px;
+	padding: 2px 20px;
+	text-shadow: none;
+}
+.buttons:first-child {
+	margin-left: 80px;
+}
+#cool {
+	background-color:  rgba(169, 169, 169, 0.8);
+	height: 50px;
+	width: 120px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed white;
+	box-shadow: 0 0 0 6px rgba(169, 169, 169, 0.8);
+	border-radius: 40px;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+	left: 1008px;
+	top: 100px;
+}
+#big-crcl {
+	background-color:  rgba(169, 169, 169, 0.8);
+	width: 30px;
+	height: 30px;
+	border: 3px dashed white;
+	box-shadow: 0 0 0 6px rgba(169, 169, 169, 0.8);
+	border-radius: 18px;
+	position: absolute;
+	top: 180px;
+	left: 960px;
+}
+#small-crcl {
+	background-color:  rgba(169, 169, 169, 0.8);
+	width: 17px;
+	height: 17px;
+	border: 3px dashed white;
+	box-shadow: 0 0 0 6px rgba(169, 169, 169, 0.8);
+	border-radius: 11px;
+	position: absolute;
+	top: 225px;
+	left: 920px;
+}

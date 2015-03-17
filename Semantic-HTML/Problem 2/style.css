@@ -1,0 +1,46 @@
+body {
+	font-family: Arial;
+}
+#wrapper {
+	width: 880px;
+	height: 320px;
+	border-radius: 10px;
+	background-color: #ffc0cb;
+	padding: 20px;
+	margin: 10px auto;
+}
+#wrapper>header {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0px;
+}
+section {
+	float: left;
+	margin: 5px;
+}
+section>header {
+	margin-bottom: 5px;
+}
+audio {
+	width: 250px;
+}
+#audio-back {
+	height: 93px;
+	background-color: black;
+	margin-bottom: 4px;
+	padding-top: 30px;
+}
+figure {
+	margin: 0px 0px 5px 0px;
+}
+p {
+	margin: 8px 0px;
+}
+meter {
+	width: 170px;
+	height: 25px;
+}
+section#audio {
+	width: 250px;
+}

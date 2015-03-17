@@ -1,0 +1,226 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 16px;
+	background: url("../images/background-flowers.jpg") repeat;
+	color: black;
+	height: auto;
+}
+ul {
+	list-style: none;
+	padding: 0px;
+}
+#wrapper {
+	max-width: 960px;
+	margin: 0px auto;
+}
+#wrapper>header {
+	background: rgba(255, 224, 255, 0.8);
+	border: 2px solid black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 15px;
+	margin: 0px auto 30px;
+	width: 99%;
+	height: 170px;
+}
+#wrapper>header>h1 {
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+}
+#wrapper>header>h1>a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#wrapper>header>h1>a>img {
+	float: left;
+	width: 250px;
+}
+#wrapper>header>h1>a>span {
+	float: right;
+	display: block;
+}
+#wrapper>header>nav {
+	float: right;
+}
+#wrapper>header>nav>ul {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+#wrapper>header>nav>ul>li {
+	display: inline-block;
+	width: 150px;
+	border: 1px solid black;
+	background: #e22c7c;
+	text-align: center;
+	margin-right: 10px;
+}
+#wrapper>header>nav>ul>li>a {
+	display: block;
+	font-size: 1.3em;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0px;
+	text-decoration: none;
+}
+aside.left {
+	float: left;
+	background: rgba(255, 224, 255, 0.8);
+	border: 2px solid black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px 10px 15px;
+	width: 18%;
+	margin-left: 4px;
+}
+aside.left a {
+	text-decoration: none;
+	color: black;
+	vertical-align: middle;
+}
+aside.left>ul>li>a>img {
+	vertical-align: middle;
+}
+aside.right {
+	float: right;
+	background: rgba(255, 224, 255, 0.8);
+	border: 2px solid black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+	width: 18%;
+	margin-right: 4px;
+}
+section {
+	background: rgba(255, 224, 255, 0.8);
+	border: 2px solid black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+	width: 62%;
+	margin: 0px auto;
+}
+section>article>header {
+	margin-bottom: 5px;
+}
+section>article>header>h1 {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+section>article>div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+section>article>div>img {
+	width: 132px;
+	height: 93px;
+	margin: 0px 5px 10px;
+}
+footer {
+	width: 99%;
+	background: rgba(255, 224, 255, 0.8);
+	border: 2px solid black;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 40px auto 0px;
+	text-align: center;
+}
+footer>h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+footer>h2>a {
+	color: black;
+}
+@media only screen and (max-width: 960px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 780px) {	
+	#wrapper {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: space-between;
+	}
+	#wrapper>header {
+		height: auto;
+	}
+	#wrapper>header>h1 {
+		text-align: center;
+	}
+	#wrapper>header>h1>a {
+		font-size: 1.2em;
+		display: block;
+	}
+	#wrapper>header>h1>a>img {
+		float: none;
+	}
+	#wrapper>header>h1>a>span {
+		float: none;
+		display: inline;
+	}
+	#wrapper>header>nav {
+		float: none;
+		width: 100%;
+	}
+	#wrapper>header>nav>ul {
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+	#wrapper>header>nav>ul>li {
+		width: 22%;
+		margin-right: 2%;
+	}
+	#wrapper>header>nav>ul>li>a {
+		font-size: 1.2em;
+		padding: 10px 0px;
+	}
+	section, aside.left, aside.right {
+		float: none;
+		width: 99%;
+		margin: 0px auto 10px;
+	}
+	header {
+		order: 1;
+	}
+	section {
+		order: 2;
+	}
+	aside.left {
+		order: 3;
+	}
+	aside.right {
+		order: 4;
+	}
+	footer {
+		order: 5;
+		margin: 0px auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	#wrapper>header>h1>a>span {
+		display: block;
+	}
+	#wrapper>header>nav>ul>li {
+		width: 100%;
+		margin-right: 0px;
+		display: block;
+	}
+}
